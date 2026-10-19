@@ -2,6 +2,7 @@ export const profile = {
   name: 'Sanket Patil',
   location: 'Pune, Maharashtra, India',
   headline: 'Python Developer · Generative AI Intern · AI/ML · Data & Full-Stack',
+  email: 'spatil09921@gmail.com',
   github: 'https://github.com/sanket636',
   linkedin: 'https://www.linkedin.com/in/sanket-vijaysinh-patil/',
   resume: '/Sanket_Patil_Resume.pdf',
@@ -32,19 +33,19 @@ export const projects = [
 ];
 
 export const courses = [
-  { title: 'Microsoft Azure Fundamentals (AZ-900)', issuer: 'Microsoft', type: 'Professional certification', verify: '' },
-  { title: 'Claude 101', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Claude Code 101', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Claude Platform 101', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Introduction to Claude Cowork', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Claude Code in Action', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Building with the Claude API', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Introduction to Model Context Protocol', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'AI Fluency: Framework & Foundations', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'AI Fluency for Educators', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'AI Fluency for Students', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Model Context Protocol: Advanced Topics', issuer: 'Anthropic', type: 'Course completion', verify: '' },
-  { title: 'Claude with Amazon Bedrock', issuer: 'Anthropic', type: 'Course completion', verify: '' },
+  { title: 'Microsoft Azure Fundamentals (AZ-900)', issuer: 'Microsoft', type: 'Professional certification', verify: 'https://www.certiport.com/portal/pages/credentialverification.aspx' },
+  { title: 'Claude 101', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/54et78gvoijs' },
+  { title: 'Claude Code 101', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/3jxk6s929gfo' },
+  { title: 'Claude Platform 101', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/su6zibfvpi93' },
+  { title: 'Introduction to Claude Cowork', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/8ukano746cjw' },
+  { title: 'Claude Code in Action', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/65zrhk2f4s4f' },
+  { title: 'Building with the Claude API', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/pzt3ksz47ryk' },
+  { title: 'Introduction to Model Context Protocol', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/7c9wtcreusw9' },
+  { title: 'AI Fluency: Framework & Foundations', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/pxenw2z6neyq' },
+  { title: 'AI Fluency for Educators', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/bsjdtd234rix' },
+  { title: 'AI Fluency for Students', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/h7ym8x849gho' },
+  { title: 'Model Context Protocol: Advanced Topics', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/u2xr266t4xub' },
+  { title: 'Claude with Amazon Bedrock', issuer: 'Anthropic', type: 'Course completion', verify: 'https://verify.skilljar.com/c/gxwtcxnwy2ui' },
 ];
 
 export const softSkills = ['Problem Solving', 'Analytical Thinking', 'Communication', 'Team Collaboration', 'Adaptability', 'Time Management', 'Continuous Learning', 'Documentation', 'Attention to Detail', 'Critical Thinking'];

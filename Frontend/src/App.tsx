@@ -17,6 +17,7 @@ import {
   Layers3,
   Linkedin,
   Mail,
+  MapPin,
   Menu,
   Moon,
   Send,
@@ -175,7 +176,7 @@ export default function App() {
       <header className="site-header">
         <a className="brand" href="#home" aria-label="Sanket Patil home">
           <span className="brand-mark">
-            SP<span>.</span>
+            SP<span> </span>
           </span>
           <span className="brand-caption">
             PORTFOLIO <i>2026</i>
@@ -237,7 +238,7 @@ export default function App() {
             <h1>
               Sanket
               <br />
-              <span>Patil.</span>
+              <span>Patil </span>
             </h1>
 
             <p className="hero-description">
@@ -245,12 +246,14 @@ export default function App() {
               turn ideas into useful digital experiences.
             </p>
 
-            <div className="hero-meta">
-              <span>
-                <span className="tiny-square" /> Based in Pune, India
-              </span>
-              <span>Curious by design. Practical by default.</span>
-            </div>
+           <div className="hero-meta">
+           <span className="hero-location">
+           <MapPin size={15} strokeWidth={1.8} />
+            Pune, Maharashtra, India
+         </span>
+
+  <span>Building with Python. Exploring AI. Solving Real-World Problems.</span>
+</div>
 
             <div className="hero-buttons">
               <a className="button button-primary" href="#projects">
@@ -1125,12 +1128,14 @@ export default function App() {
                 </span>
 
                 <div>
-                  <small>EMAIL</small>
-                  <b>Configure your email address</b>
-                  <p>
-                    Add your public email in the profile data before publishing.
-                  </p>
-                </div>
+                <small>EMAIL</small>
+                <b>
+                   <a href={`mailto:${profile.email}`}>
+                  {profile.email}
+                    </a>
+                    </b>
+                      <p>Feel free to contact me for opportunities and collaborations.</p>
+              </div>
               </div>
 
               <div className="contact-direct">
